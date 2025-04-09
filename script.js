@@ -12,7 +12,7 @@
   }, 40); // velocidade do contador
 
   function abrirWhatsapp() {
-    const numero = '5599999999999'; // Coloque o número comercial do WhatsApp aqui com DDI e DDD
+    const numero = '5511913333804'; // Coloque o número comercial do WhatsApp aqui com DDI e DDD
     const mensagem = encodeURIComponent("Olá, gostaria de saber mais sobre os treinos de boxe!");
     const link = `https://wa.me/${numero}?text=${mensagem}`;
     window.open(link, '_blank');
