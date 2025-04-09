@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jones Boxing team</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <img src="assets/logo.png" alt="Logo Boxing Jonesteam" class="logo">
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#aulas">Aulas</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#planos">Planos</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+    </div>
+    <div class="slogan">
+      <h1>Jones Boxe Team</h1>
+      <p>Aulas individuais e em grupo para todos os níveis</p>
+    </div>
+    <div class="contador-alunos">
+      🥊 <strong><span id="contador">0</span> alunos</strong> treinando com a gente!
+    </div>    
+    
+  </header>
+
+  <section id="sobre" class="sobre">
+    <div class="sobre-container">
+      <img src="assets/foto-sobre.jpg" alt="Treinador com alunos" class="sobre-imagem">
+      <div class="sobre-texto">
+        <h2>Sobre o Treinador</h2>
+        <p>Como treinador(a) profissional, minha paixão é guiar pessoas para um estilo de vida mais saudável. Todo mundo é único, com suas próprias forças e limitações. Meu método visa criar um plano personalizado baseado na sua saúde, na sua agenda e, principalmente, nas suas metas de boa forma. Pretendo transformar seu corpo e influenciar você a tomar decisões mais conscientes em relação à sua saúde.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="aulas" class="aulas">
+    <h2>Horários dos Treinos</h2>
+    <div class="cards-horarios">
+      <div class="card-dia">
+        <h3>Segunda-feira</h3>
+        <p><strong>Manhã:</strong> 7:30 – 9:00</p>
+        <p><strong>Noite:</strong> 19:00 – 21:00</p>
+      </div>
+      <div class="card-dia">
+        <h3>Quarta-feira</h3>
+        <p><strong>Manhã:</strong> 7:30 – 9:00</p>
+        <p><strong>Noite:</strong> 19:00 – 21:00</p>
+      </div>
+      <div class="card-dia">
+        <h3>Sexta-feira</h3>
+        <p><strong>Manhã:</strong> 7:30 – 9:00</p>
+        <p><strong>Noite:</strong> 19:00 – 21:00</p>
+      </div>
+      <div class="card-dia">
+        <h3>Sábado</h3>
+        <p><strong>Manhã:</strong> 10:00 – 12:00</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria-container">
+      <img src="assets/foto1.jpg" alt="Treino 1">
+      <img src="assets/foto2.jpg" alt="Treino 2">
+      <img src="assets/foto3.jpg" alt="Treino 3">
+      <img src="assets/foto4.jpg" alt="Treino 4">
+      <!-- Adicione mais imagens aqui -->
+    </div>
+  </section>
+
+  <section id="planos" class="planos">
+    <h2>Planos de Treino</h2>
+    <div class="cards-planos">
+      <div class="card-plano">
+        <span class="material-icons icone-plano">groups</span>
+        <h3>Grupo - 2 Aulas/semana</h3>
+        <p>Ideal para quem está começando ou tem agenda apertada.</p>
+        <p class="preco">R$ 100/mês</p>
+      </div>
+      <div class="card-plano">
+        <span class="material-icons icone-plano">groups</span>
+        <h3>Grupo - 3 Aulas/semana</h3>
+        <p>Mais frequência para acelerar o progresso e condicionamento.</p>
+        <p class="preco">R$ 130/mês</p>
+      </div>
+      <div class="card-plano">
+        <span class="material-icons icone-plano">groups</span>
+        <h3>Grupo - 4 Aulas/semana</h3>
+        <p>Plano completo com treinos consistentes em grupo.</p>
+        <p class="preco">R$ 160/mês</p>
+      </div>
+      <div class="card-plano">
+        <span class="material-icons icone-plano">person</span>
+        <h3>Treino Individual</h3>
+        <p>Atendimento 100% personalizado focado nos seus objetivos.</p>
+        <p class="preco">R$ 70/aula</p>
+      </div>
+      <div class="card-plano">
+        <span class="material-icons icone-plano">security</span>
+        <h3>Aula de Defesa Pessoal</h3>
+        <p>Aprenda técnicas práticas e eficazes para autodefesa.</p>
+        <p class="preco">R$ 60/aula</p>
+      </div>
+    </div>
+  
+    <div class="botao-experimental-container">
+      <a href="https://wa.me/5511913333804?text=Olá! Tenho interesse em fazer uma aula experimental de boxe!" 
+         target="_blank" class="botao-experimental">
+        Quero fazer uma aula experimental
+      </a>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="depoimentos">
+    <h2>O que dizem os alunos</h2>
+  
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="card-depoimento active">
+          <img src="assets/joao.png" alt="João S." class="foto-aluno">
+          <p>"O melhor treinador que já tive! Evoluí muito em pouco tempo."</p>
+          <h4>– João S.</h4>
+        </div>
+  
+        <div class="card-depoimento">
+          <img src="assets/carla.png" alt="Carla M." class="foto-aluno">
+          <p>"As aulas em grupo são muito motivadoras e o clima da academia é incrível."</p>
+          <h4>– Carla M.</h4>
+        </div>
+  
+        <div class="card-depoimento">
+          <img src="assets/lucas.png" alt="Lucas T." class="foto-aluno">
+          <p>"O treino individual me deu foco e disciplina. Recomendo de olhos fechados."</p>
+          <h4>– Lucas T.</h4>
+        </div>
+      </div>
+  
+      <div class="carousel-dots">
+        <span class="dot active" onclick="mudarSlide(0)"></span>
+        <span class="dot" onclick="mudarSlide(1)"></span>
+        <span class="dot" onclick="mudarSlide(2)"></span>
+      </div>
+    </div>
+  </section>
+  
+  <a href="https://wa.me/5511913333804?text=Olá, gostaria de saber mais sobre os treinos de boxe!" 
+   class="whatsapp-float" target="_blank" aria-label="Abrir WhatsApp">
+    <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" />
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Jones Boxe Team. Todos os direitos reservados. Criado por <span class="criador">HWDelCol</span>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
