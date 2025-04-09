@@ -461,6 +461,113 @@ footer {
   margin-bottom: 1rem;
 }
 
+.admin-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  color: var(--branco);
+}
+
+.admin-container h2 {
+  text-align: center;
+  color: var(--dourado);
+}
+
+.admin-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.admin-container button {
+  width: 100%;
+  background: var(--dourado);
+  color: var(--preto);
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.admin-container button:hover {
+  background: #e6c14b;
+}
+
+.painel {
+  display: none;
+  text-align: center;
+}
+
+.painel a {
+  display: block;
+  background-color: #333;
+  margin: 1rem 0;
+  padding: 1rem;
+  color: var(--branco);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.painel a:hover {
+  background-color: #444;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  color: var(--branco);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: var(--dourado);
+}
+
+.form-container label {
+  font-weight: bold;
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.form-container button {
+  margin-top: 2rem;
+  width: 100%;
+  background: var(--dourado);
+  color: var(--preto);
+  padding: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #e6c14b;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;

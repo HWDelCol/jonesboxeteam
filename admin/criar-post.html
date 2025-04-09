@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Post | Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Criar novo post do blog</h2>
+
+    <form id="formPost">
+      <label for="titulo">Título do post:</label>
+      <input type="text" id="titulo" required>
+
+      <label for="data">Data de publicação:</label>
+      <input type="text" id="data" placeholder="DD/MM/AAAA" value="" required>
+
+      <label for="resumo">Resumo (para o blog.html):</label>
+      <textarea id="resumo" rows="3" required></textarea>
+
+      <label for="conteudo">Conteúdo completo:</label>
+      <textarea id="conteudo" rows="10" required></textarea>
+
+      <button type="submit">Gerar Post</button>
+    </form>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
